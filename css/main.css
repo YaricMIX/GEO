@@ -1,0 +1,183 @@
+body {
+	background: url(../img/back.png);
+	background-color: #1e1e1e;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+header {
+	display: flex;
+	width: auto;
+	background-color: #1C5C98;
+	padding: 10px 0px;
+}
+
+.logo {
+	display: flex;
+	width: 190px;
+}
+
+.logo-img {
+	width: 30px;
+	height: 35px;
+	padding: 0px 0px 0px 23px;
+}
+
+.logo-name {
+	font-size: 19px;
+	padding: 6px 0px 0px 10px;
+}
+
+.logo-name a{
+	color: #fff;
+}
+
+.nav {
+	width: 500px;
+	font-size: 20px;
+	margin: 6px 0px 0px 80px;
+}
+
+.nav-list {
+	list-style-type: none;
+	margin: 0;
+}
+
+.nav ul {
+	display: flex;
+}
+
+.nav li a{
+    color: white;
+    font-size: 19px; 
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 0px 15px 0px 15px;
+}
+
+.search {
+	margin: 2px 0px 0px 560px ;
+}
+
+.input {
+	width: 250px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #C4C4C4;
+	border: none;
+}
+
+.input:focus{
+	border: none;
+	outline:none;
+}
+
+.language {
+	display: flex;
+	width: 120px;
+	justify-content: space-between;
+	margin: 2px 0px 0px 140px;
+}
+
+.language-list {
+	width: 40px;
+	height: 27px;
+	border-radius: 10px;
+}
+
+.main {
+	padding-bottom: 167px;
+}
+
+.btn-main {
+	display: block;
+	background-color: #1e1e1e;
+	width: 182px;
+    height: 44px;
+	border-radius: 10px;
+	padding-top: 8px;
+	margin-left: 20px;
+	text-align: center;
+	position: relative;
+    z-index: -1;
+	color: #FFFFFF;
+    font-size: 21px;
+}
+
+.info-list {
+	display: grid;
+	margin-left: 55px;
+	margin-top: 30px;
+}
+
+.info-block {
+	width: 550px;
+	height: 200px;
+	background-color: #B7D8F8CC;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.twoblock {
+	background-color: #99CDAE;
+}
+
+.threeblock {
+	background-color: #9A99CD;
+}
+
+.title-info {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-top: 14px;
+}
+
+.text-info {
+	font-size: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	margin: 15px 0px 0px 0px;
+}
+
+hr {
+	background-color: #C4C4C4;
+}
+
+.improvement-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 60px;
+	margin-top: 50px;
+	padding: 0;
+	margin-left: 20px;
+}
+
+.improvement-inf {
+	width: 575px;
+	height: 562px;
+	background-color: #C4C4C4CC;
+	opacity: 80%;
+	border-radius: 20px;
+	list-style-type: none;
+}
+
+.img-info {
+	padding: 15px 17px 22px 16px;
+}

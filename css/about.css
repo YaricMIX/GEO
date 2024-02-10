@@ -1,0 +1,149 @@
+.main {
+	display: flex;
+}
+
+.corp {
+	padding: 0px;
+	margin: 26px 0px 0px 6px;
+	width: 285px;
+	background-color: #1E1E1E;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.nav-corp {
+	list-style: none;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	padding: 0px 15px 0px 9px;
+	line-height: 30px;
+}
+
+.nav-corp:first-child {
+	padding-top: 19px;
+}
+
+.nav-corp:last-child {
+	padding-bottom: 21px;
+}
+
+.nav-corp::before {
+	content: '\003E';
+	padding-right: 5px;
+	color: #FFFFFF;
+}
+
+.leaders-main {
+	width: 1170px;
+	border-right: 1px solid #ffffff0d;
+	border-left: 1px solid #ffffff0d;
+	margin-left: 19px;
+	margin-top: 17px;
+}
+
+.leader-tittle {
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 30px 0px 0px 33px;
+}
+
+.leader-list {
+	padding-top: 41px;
+}
+
+.lom {
+	height: 260px;
+	width: 240px;
+	margin-right: 55px;
+	float: right;
+	margin-top: -10px;
+}
+
+.lom-left {
+	height: 260px;
+	width: 240px;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 18px;
+}
+
+.leader {
+	list-style-type: none;
+	width: 750px;
+	background-color: #c4c4c4cc;
+	border-radius: 10px;
+	padding: 0px 38px 0px 14px;
+	margin-top: 10px;
+	margin-bottom: 110px;
+	margin-left: 20px;
+}
+
+.leader:nth-child(4n+4) {
+	margin-left: 320px;
+}
+
+.tittle {
+	padding: 9px 0px 0px 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.leader-filling {
+	padding-bottom: 22px;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.tittle-news {
+	width: 215px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #FFFFFFCC;
+	padding: 7px 12px 8px 14px;
+	background-color: #1e1e1ecc;
+	border-radius: 10px;
+	margin: 12px 0px 0px 13px;
+}
+
+.list-news {
+	padding: 13px 0px 0px 6px;
+}
+
+.news {
+	width: 375px;
+	background-color: #c4c4c4cc;
+	list-style-type: none;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	display: flex;
+}
+
+.news-img {
+	width: 130px;
+	height: 83px;
+	padding: 6px 8px 5px 12px;
+}
+
+.news-content {
+	margin: 0;
+	padding: 0;
+}
+
+.name-news {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #000000;
+	padding-top: 6px;
+}
+
+.news-con {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	margin: 3px 0px 0px 0px;
+}
